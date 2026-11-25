@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "planeward": {
+      "type": "http",
+      "url": "https://app.planeward.com/api/mcp"
+    }
+  }
+}

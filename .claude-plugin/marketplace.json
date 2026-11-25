@@ -1,0 +1,19 @@
+{
+  "name": "planeward-plugins",
+  "owner": {
+    "name": "Planeward",
+    "url": "https://planeward.com"
+  },
+  "metadata": {
+    "description": "Official Claude Code plugins for Planeward."
+  },
+  "plugins": [
+    {
+      "name": "planeward",
+      "source": "./plugins/planeward",
+      "description": "Run your Planeward workspaces from Claude Code: projects, CRM, forms, invoices and payments, sites, email and workflows, with your own permissions.",
+      "category": "productivity",
+      "tags": ["planeward", "crm", "projects", "mcp"]
+    }
+  ]
+}

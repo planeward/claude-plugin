@@ -1,10 +1,10 @@
-# Planeward for Claude Code
+# Planeward for Claude
 
-Run your Planeward workspaces from Claude Code: projects and tasks, CRM and pipelines, forms, sequences, events, invoices and payments, products, sites, email and workflows. One connection reaches every workspace you belong to and acts with your own permissions in each.
+Run your Planeward workspaces from Claude and Claude Code: projects and tasks, CRM and pipelines, forms, sequences, events, invoices and payments, products, sites, email and workflows. One connection reaches every workspace you belong to and acts with your own permissions in each.
 
 ## Install
 
-In Claude Code:
+**Claude Code:**
 
 ```
 /plugin marketplace add planeward/claude-plugin
@@ -19,6 +19,8 @@ claude plugin install planeward@planeward-plugins
 ```
 
 Then run `/mcp`, choose **planeward** and sign in with your Planeward account. Run `/planeward:connect` to check the connection and see your workspaces.
+
+**Claude (claude.ai and the desktop app):** add Planeward from the plugin directory once it is listed there. Until then, add the server as a custom connector: **Settings → Connectors → Add custom connector**, paste `https://app.planeward.com/api/mcp` and sign in with Planeward.
 
 ## What you get
 
@@ -39,7 +41,7 @@ Then run `/mcp`, choose **planeward** and sign in with your Planeward account. R
 ## Access and privacy
 
 - MCP is included on every Planeward plan.
-- Claude can only see and change what your role allows in each workspace. Reads run through `query`; every change goes through `execute`, which Claude Code asks you to approve.
+- Claude can only see and change what your role allows in each workspace. Reads run through `query`; every change goes through `execute`, which Claude asks you to approve.
 - Disconnect at any time in Planeward under **Settings → MCP → Connected apps**.
 
 Docs: https://docs.planeward.com/docs/mcp

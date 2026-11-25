@@ -5,15 +5,20 @@
     "url": "https://planeward.com"
   },
   "metadata": {
-    "description": "Official Claude Code plugins for Planeward."
+    "description": "Official Planeward plugins for Claude and Claude Code."
   },
   "plugins": [
     {
       "name": "planeward",
       "source": "./plugins/planeward",
-      "description": "Run your Planeward workspaces from Claude Code: projects, CRM, forms, invoices and payments, sites, email and workflows, with your own permissions.",
+      "description": "Run your Planeward workspaces from Claude and Claude Code: projects, CRM, forms, invoices and payments, sites, email and workflows, with your own permissions.",
       "category": "productivity",
-      "tags": ["planeward", "crm", "projects", "mcp"]
+      "tags": [
+        "planeward",
+        "crm",
+        "projects",
+        "mcp"
+      ]
     }
   ]
 }

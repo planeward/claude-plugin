@@ -16,17 +16,20 @@ MCP is included on every Planeward plan.
 
 ## Set up
 
-1. Install the plugin. In Claude Code (2.1.275 or later):
+1. Install the plugin.
+   - **Claude Code** (2.1.275 or later):
 
-   ```
-   /plugin install planeward --marketplace planeward/claude-plugin
-   ```
+     ```
+     /plugin install planeward --marketplace planeward/claude-plugin
+     ```
 
-   Or add the marketplace first with `/plugin marketplace add planeward/claude-plugin`, then `/plugin install planeward@planeward-plugins`.
+     Or add the marketplace first with `/plugin marketplace add planeward/claude-plugin`, then `/plugin install planeward@planeward-plugins`.
 
-2. Run `/mcp`, choose **planeward** and sign in with your Planeward account.
+   - **Claude** (claude.ai and the desktop app): add Planeward from the plugin directory.
+
+2. Sign in with your Planeward account when Claude asks. In Claude Code, run `/mcp` and choose **planeward**.
 3. On the Planeward screen, choose **Allow**. One approval covers all your workspaces.
-4. Run `/planeward:connect` to check it worked.
+4. Run `/planeward:connect` (or ask Claude to check your Planeward connection) to see your workspaces.
 
 ## What it connects to and sends
 

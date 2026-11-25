@@ -2,7 +2,7 @@
   "name": "planeward",
   "displayName": "Planeward",
   "version": "1.0.1",
-  "description": "Connect Claude Code to your Planeward account. One connection reaches every workspace you belong to and acts with your permissions in each: projects, CRM, forms, sequences, events, invoices and payments, sites, email and workflows.",
+  "description": "Connect Claude and Claude Code to your Planeward account. One connection reaches every workspace you belong to and acts with your permissions in each: projects, CRM, forms, sequences, events, invoices and payments, sites, email and workflows.",
   "author": {
     "name": "Planeward",
     "url": "https://planeward.com"

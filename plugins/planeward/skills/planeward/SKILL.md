@@ -7,7 +7,7 @@ description: Read and change the user's Planeward data (projects and tasks, cont
 
 Planeward is the operating system for a service or coaching business. This plugin connects the Planeward MCP server (`https://app.planeward.com/api/mcp`). One connection reaches every workspace the user belongs to and acts with **their** permissions in each one, so you can only see and change what they can.
 
-If the Planeward tools are missing or answer that sign-in is needed, tell the user to run `/mcp`, choose **planeward** and sign in. `/planeward:connect` walks through it.
+If the Planeward tools are missing or answer that sign-in is needed, tell the user to sign in: in Claude Code, run `/mcp` and choose **planeward**; in Claude, open the Planeward connector in **Settings → Connectors**. `/planeward:connect` walks through it.
 
 ## The three tools
 
